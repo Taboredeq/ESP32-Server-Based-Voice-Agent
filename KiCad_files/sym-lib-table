@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-DEVKITC-32U")(type "Legacy")(uri "C:/Users/norbe/Downloads/ESP32-DEVKITC-32U/ESP32-DEVKITC-32U.lib")(options "")(descr ""))
+)
