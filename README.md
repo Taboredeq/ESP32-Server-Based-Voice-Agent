@@ -70,6 +70,11 @@ ESP32 → audio → Python Server → STT → GPT → TTS → effects → ESP32
 ##  Future Work
 
 - Custom BMO enclosure (in progress)
+
+<p align="center">
+  <img src="./images/BMO_case.png" width="500"/>
+</p>
+
 - RTC Watch (in progress)
 - Physical interaction buttons  
 - Wake-word detection  
