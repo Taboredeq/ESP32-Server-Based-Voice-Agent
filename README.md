@@ -6,7 +6,12 @@ The system enables real-time voice interaction using speech recognition, LLM res
 ---
 
 ##  Demo
+Demonstration of a conversation (Python server output text)
+<p align="center">
+  <img src="./images/Python_output.png" width="1000"/>
+</p>
 
+Viedo of that conversation: https://youtu.be/fuaXB3A9knM
 
 ---
 
