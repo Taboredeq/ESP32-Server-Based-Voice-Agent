@@ -81,6 +81,11 @@ ESP32 → audio → Python Server → STT → GPT → TTS → effects → ESP32
 </p>
 
 - RTC Watch (in progress)
+
+<p align="center">
+  <img src="./images/RTC_Display.jpg" width="500"/>
+</p>
+
 - Physical interaction buttons  
 - Wake-word detection  
 - Lower latency streaming
