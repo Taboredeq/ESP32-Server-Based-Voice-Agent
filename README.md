@@ -60,7 +60,21 @@ ESP32 → audio → Python Server → STT → GPT → TTS → effects → ESP32
 ---
 
 ## 📂 Repository Structure---
-
+```
+ESP32-Server-Based-Voice-Agent/
+├── src/
+│   ├── python-server/
+│   │   ├── bmo_voice.py
+│   │   ├── gpt.py
+│   │   └── serverBMO.py
+│   ├── esp32-record-response-agent/   
+│   │   └── esp32-record-response-agent.ino
+│   └── RTC-LCD-watch/
+│       └── RTC-LCD-watch.ino
+├── KiCad_files
+├── images
+└── README.md
+```
 ---
 
 ##  Highlights
@@ -76,16 +90,21 @@ ESP32 → audio → Python Server → STT → GPT → TTS → effects → ESP32
 
 - Custom BMO enclosure (in progress)
 
+In addition to the previously mentioned functionalities, it will have an SD card reader, a lithium-ion battery charging module, and single- and multi-directional interaction buttons.
+
+Preview of the design:
 <p align="center">
   <img src="./images/BMO_case.png" width="500"/>
 </p>
 
-- RTC Watch (in progress)
+- integrated RTC Watch (in progress)
 
+This watch is syncroni
+
+Preview of the design:
 <p align="center">
   <img src="./images/RTC_Display.jpg" width="500"/>
 </p>
-
-- Physical interaction buttons  
+  
 - Wake-word detection  
 - Lower latency streaming
