@@ -99,7 +99,8 @@ Preview of the design:
 
 - integrated RTC Watch (in progress)
 
-This watch is syncroni
+This watch is synchronized thanks to the NTP server that it connects to.
+Code of that watch is placed in 'src/RTC-LCD-watch' folder
 
 Preview of the design:
 <p align="center">
